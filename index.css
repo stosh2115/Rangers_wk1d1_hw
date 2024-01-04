@@ -1,0 +1,126 @@
+.rectangle1{
+    width: 991px;
+    height: 561px;
+    background: #F4EEEE;
+    margin-top: 180px;
+    margin-left: 385px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+.rectangle2{
+    width: 637px;
+    height: 387px;
+    border-radius: 10px;
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin:-3rem auto;
+    position:relative;
+    margin-top: 5%;
+    
+    
+}
+#main_image{
+    width: auto;
+    height: 430px;
+    float: left;  
+    top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: left;
+    align-items: center;
+    position:absolute;
+    margin-left: -200px;
+    
+}
+h3{
+    color: #8F8D8D;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;   
+    
+}
+h4{
+    color: #8F8D8D;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+
+        
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+}
+
+header > h2{
+    margin-top: -200px;
+    margin-left: 300px; 
+    
+}
+
+main{
+    display: grid;
+    flex-wrap: column;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+.divcontainer{
+    text-align: left;
+    vertical-align: middle;
+    justify-content: left;
+    align-items: center;
+    position:relative;
+    margin-top: -100px;
+    border-radius: 5px; 
+    margin-left: 70px;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+#nextstep{
+    border-radius: 5px;
+    background: #0C0B53;  
+    color: #FFFAFA;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.card{
+    width: 100%;
+}
+
+#nextstepbutton{
+    float: right; 
+    margin-top: 5vh;
+    margin-right: -.8vw;
+}
